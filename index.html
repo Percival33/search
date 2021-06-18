@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- https://stenevang.wordpress.com/2013/02/22/google-advanced-power-search-url-request-parameters/ -->
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .logo {
+                margin-top: 100px;
+            }
+            #Logo {
+                width: 270px;
+                height: 90px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .link {
+                justify-content: right;
+                text-align: right;
+                color: lightgrey;
+            }
+            .form{
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 890px;
+                height: 140px;
+            }
+            #text {
+                border-radius: 24px;
+                width: 592px;
+                height: 50px;
+                outline: 30px;
+                display: inline-block;
+            }
+
+            #text:hover {
+                outline: 40px;
+                outline: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="link" align="right">
+            <a href="images.html">Google Image Search</a>
+            <a href="advanced.html">Google Advanced Search</a>
+        </div>
+        <center>
+            <div class="logo">
+                <img src="logo/logo.png" id="Logo" alt="Google">
+            </div>
+        </center>
+            <div class="form">
+                <form align="center" action="https://google.com/search">
+                    <input type="text" id="text" placeholder="search" name="q" autocomplete="off">
+                    <br />
+                    <br />
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I’m Feeling Lucky">
+                </form>
+            </div>
+    </body>
+</html>
+

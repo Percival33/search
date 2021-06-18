@@ -1,0 +1,11 @@
+.logo {
+    margin: 100px;
+    align-items: center;
+}
+.link {
+    justify-content: right;
+    text-align: right;
+}
+.form {
+    text-align: center;
+}
