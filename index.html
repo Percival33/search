@@ -30,13 +30,17 @@
                 border-radius: 24px;
                 width: 592px;
                 height: 50px;
-                outline: 30px;
-                display: inline-block;
             }
-
             #text:hover {
-                outline: 40px;
-                outline: lightgray;
+                border-radius: 24px;
+                border: 3px;
+                border-color: rgb(255, 1, 1);
+            }
+            button {
+                width: 150px;
+                height: 50px;
+                color: white;
+                background-color:lightslategray;
             }
         </style>
     </head>
@@ -55,8 +59,8 @@
                     <input type="text" id="text" placeholder="search" name="q" autocomplete="off">
                     <br />
                     <br />
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I’m Feeling Lucky">
+                    <button type="submit" class="submit">Google Search</button>
+                    <button type="submit" name="btnI" value="I&apos;m+Feeling+Lucky" class="submit">I'm Feeling Lucky</button>
                 </form>
             </div>
     </body>
