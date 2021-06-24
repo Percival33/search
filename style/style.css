@@ -1,10 +1,10 @@
-.logo {
-    margin: 100px;
-    align-items: center;
-}
 .link {
-    justify-content: right;
     text-align: right;
+}
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .form {
     text-align: center;
